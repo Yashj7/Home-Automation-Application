@@ -26,24 +26,14 @@ app.use((req, res, next) => {
 });
 
 const config = {
-  user: "sa",
-  password: "yash7000",
-  server: "LAPTOP-OV3KG247\\SQLEXPRESS",
-  database: "home_automation",
+  user: "xyz",
+  password: "xyz",
+  server: "xyz",
+  database: "xyz",
   options: {
     trustServerCertificate: true,
   },
 };
-
-// const config = {
-//   user: "yash",
-//   password: "#Raj7000",
-//   server: "home-automation-server.database.windows.net",
-//   database: "home_automation_db",
-//   options: {
-//     trustServerCertificate: true,
-//   },
-// };
 
 mssql
   .connect(config)
