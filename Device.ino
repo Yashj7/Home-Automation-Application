@@ -9,8 +9,8 @@ const int PINS[2] = { 22, 23 };
 
 JsonDocument doc;
 
-const char* ssid = "Yash";
-const char* password = "yash9658";
+const char* ssid = "xyz";
+const char* password = "xyz";
 const int roomid = 543;
 int deviceid[2]={89,90};
 int status[n];
@@ -18,7 +18,7 @@ int status[n];
 const char* macAddress = "E8:68:E7:2E:BA:58";
 char macHashStr[65];
 
-const char* server_address_devices_template = "http://192.168.103.199:3001/device_list?room_id=%d&hash=%s";
+const char* server_address_devices_template = "xyz";
 
 void setup() {
   for (int i = 0; i < n; i++) {
